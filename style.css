@@ -1175,3 +1175,12 @@ footer {
 
 }
 ```
+/* CORREÇÃO DOS LINKS DO MENU */
+
+html {
+    scroll-behavior: smooth;
+}
+
+section[id] {
+    scroll-margin-top: 100px;
+}
