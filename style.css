@@ -948,24 +948,19 @@ footer {
 /* ANIMAÇÕES */
 
 .reveal {
-
-    opacity: 0;
-
-    transform:
-        translateY(35px);
-
-    transition:
-        opacity 0.8s ease,
-        transform 0.8s ease;
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 0.8s ease, transform 0.8s ease;
 }
 
-
 .reveal.visible {
-
     opacity: 1;
+    transform: translateY(0);
+}
 
-    transform:
-        translateY(0);
+/* Faz os links do menu pararem abaixo da navbar */
+section[id] {
+    scroll-margin-top: 100px;
 }
 
 
