@@ -525,3 +525,5 @@ console.log(
     "Website oficial da Onyx."
 );
 ```
+
+console.log("ONYX: JavaScript carregado com sucesso!");
